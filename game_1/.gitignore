@@ -1,0 +1,94 @@
+# =============================================================================
+# Dependencies
+# =============================================================================
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+package-lock.json.bak
+
+# =============================================================================
+# Expo & Bundler Artifacts
+# =============================================================================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.eas/
+.metro-health-check*
+
+# =============================================================================
+# Android Native & Gradle Caches
+# =============================================================================
+.gradle/
+build/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+android/app/src/main/assets/index.android.bundle
+
+# =============================================================================
+# iOS Native & CocoaPods Caches
+# =============================================================================
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# =============================================================================
+# Build Binaries (APKs, AABs, IPAs)
+# =============================================================================
+*.apk
+*.aab
+*.ipa
+*.app
+
+# =============================================================================
+# Security, Certificates & Keystores
+# =============================================================================
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+*.orig.*
+
+# =============================================================================
+# Environment Secrets
+# =============================================================================
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# TypeScript & Kotlin
+# =============================================================================
+*.tsbuildinfo
+.kotlin/
+
+# =============================================================================
+# IDE & System Files
+# =============================================================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# OS Files (Windows & macOS)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.log
